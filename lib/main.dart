@@ -1,10 +1,12 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
+import 'package:toodoo/local_notifs_service.dart';
 import 'package:toodoo/task_data.dart';
 import 'tasks_screen.dart';
 import 'package:provider/provider.dart';
 
-void main() {
+void main() async {
+  await LocalNotifsService().initLocalNotifs();
   runApp(const MyApp());
 }
 
@@ -31,16 +33,30 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Too-Doo',
         theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: Colors.cyan)),
+            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple)),
         home: const TasksScreen(),
       ),
     );
   }
 }
 
-/*
-Room For Improvement (RFI):
-- Adding more modern delete option
-- Enabling reordering items by long-press
-- Caching list changes
-*/
+// v1.0.0: Tasks screen, showing number of current tasks, and task list {240617}
+// v1.0.0: Mark tasks as completed through a checkbox {240617}
+// v1.0.0: Button for adding new tasks, and long press task item to remove {240618}
+// v1.0.0: Use Provider for state management {240621}
+// v1.0.0: Enable scheduling reminder notifications at specified dates & times {241017}
+// v1.0.0: Enable scheduling notifications with a repeat interval {241017}
+// v1.0.0: Enable editing task title by tapping on it {241020}
+// v1.0.0: Add "Delete All Tasks" icon button {241026}
+// [avoid duplicate rescheduling due to using task time-based id,
+// which recreates new id for the same task when time is changed] {241227}
+// [Test notifications IDs and repeat modes] {241228}
+// v1.0.0: Show current time at time picker {241228}
+// v1.0.0: Enable multiple options for repeat feature (instead of "daily" only) {241228}
+// v1.0.0: Pass the whole class instead inside notif. scheduling method, & test {241228}
+// v1.0.0: Prevent popping unless task reminder datetime is future or no reminder {241228}
+// v1.0.0: Apply data persistence to task data
+// [icon, rename]
+// v2.0.0: Enable deleting items by swiping
+// v2.0.0: Enable reordering items by long-press
+// v2.0.0: Cache tasks list to (data persistence)

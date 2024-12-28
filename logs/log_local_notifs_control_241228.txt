@@ -1,0 +1,45 @@
+Restarted application in 5,218ms.
+I/flutter ( 2472): All notifications canceled
+I/flutter ( 2472): Pending notifs count after canceling: 0
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/TextInputPlugin( 2472): Composing region changed by the framework. Restarting the input method.
+2
+W/IInputConnectionWrapper( 2472): getTextBeforeCursor on inactive InputConnection
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/TextInputPlugin( 2472): Composing region changed by the framework. Restarting the input method.
+2
+W/IInputConnectionWrapper( 2472): getTextBeforeCursor on inactive InputConnection
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/flutter ( 2472): Last added task id: 1
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/TextInputPlugin( 2472): Composing region changed by the framework. Restarting the input method.
+2
+W/IInputConnectionWrapper( 2472): getTextBeforeCursor on inactive InputConnection
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/flutter ( 2472): task.isReminderOn: true
+I/flutter ( 2472): Notification with id = 1 canceled
+I/flutter ( 2472): Pending notifs count after canceling: 0
+I/flutter ( 2472): Done scheduling a reminder with id = 1 at 2024-12-28 10:38:00.000+0300
+I/flutter ( 2472): Total pending notifs count: 1
+I/flutter ( 2472): Notification with id = 1 canceled
+I/flutter ( 2472): Pending notifs count after canceling: 0
+I/flutter ( 2472): Done scheduling a reminder with id = 1 at 2024-12-28 10:38:00.000+0300
+I/flutter ( 2472): Total pending notifs count: 1
+2
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/TextInputPlugin( 2472): Composing region changed by the framework. Restarting the input method.
+2
+W/IInputConnectionWrapper( 2472): getTextBeforeCursor on inactive InputConnection
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/TextInputPlugin( 2472): Composing region changed by the framework. Restarting the input method.
+2
+W/IInputConnectionWrapper( 2472): getTextBeforeCursor on inactive InputConnection
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/flutter ( 2472): Last added task id: 1
+I/TextInputPlugin( 2472): Composing region changed by the framework. Restarting the input method.
+2
+W/IInputConnectionWrapper( 2472): getTextBeforeCursor on inactive InputConnection
+D/InputConnectionAdaptor( 2472): The input method toggled cursor monitoring on
+I/flutter ( 2472): Notification with id = 1 canceled
+I/flutter ( 2472): Pending notifs count after canceling: 0
+I/flutter ( 2472): Done scheduling a reminder with id = 1 at 2024-12-28 10:38:00.000+0300
